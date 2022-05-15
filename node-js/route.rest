@@ -1,0 +1,21 @@
+GET http://localhost:8000/subscribe
+
+###
+
+GET http://localhost:8000/subscribe/42
+###
+POST http://localhost:8000/subscribe/add
+Content-Type: application/json
+
+{
+    "nom": "testImg44",
+    "prenom": "testImg",
+    "Club": "paris",
+    "Age": 25,
+    "Taille": 1.88,
+    "Sexe": "M",
+    "PiedFort": "Both",
+    "Description": "yadav  is a very good football player",
+    "img": "no",
+    "PlayerCreatedDate": "2020-01-01"
+}
